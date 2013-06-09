@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <Languages xmlns="">
+    <Language code="ar" />
+    <Language code="bg-BG" />
+    <Language code="ca-ES" />
+    <Language code="cs-CZ" />
+    <Language code="da-DK" />
+    <Language code="de" />
+    <Language code="el-GR" />
+    <Language code="es" />
+    <Language code="et-EE" />
+    <Language code="fi-FI" />
+    <Language code="fr" />
+    <Language code="he-IL" />
+    <Language code="hi-IN" />
+    <Language code="hu-HU" />
+    <Language code="id-ID" />
+    <Language code="it" />
+    <Language code="ja-JP" />
+    <Language code="ko-KR" />
+    <Language code="lt-LT" />
+    <Language code="lv-LV" />
+    <Language code="nb-NO" />
+    <Language code="nl" />
+    <Language code="pl-PL" />
+    <Language code="pt" />
+    <Language code="ro-RO" />
+    <Language code="ru-RU" />
+    <Language code="sk-SK" />
+    <Language code="sl-SI" />
+    <Language code="sv" />
+    <Language code="th-TH" />
+    <Language code="tr-TR" />
+    <Language code="uk-UA" />
+    <Language code="vi-VN" />
+    <Language code="zh-Hans" />
+    <Language code="zh-Hant" />
+  </Languages>
+  <App xmlns="" ProductID="{91f7b13c-41cf-434e-aaf6-95871b819522}" Title="SpyCamera" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="SpyCamera author" Description="Sample description" Publisher="SpyCamera" PublisherID="{1d46e288-b8ca-40fa-8d4a-bec3c8bb50ec}">
+    <IconPath IsRelative="true" IsResource="false">SpyCamApp159x159.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_ISV_CAMERA" />
+      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="SpyCameraToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">SpyCam158x158.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">SpyCam336x336.png</BackgroundImageURI>
+          <Title>SpyCam</Title>
+          <BackContent></BackContent>
+          <BackBackgroundImageURI IsRelative="true" IsResource="false"></BackBackgroundImageURI>
+          <BackTitle></BackTitle>
+          <DeviceLockImageURI IsRelative="true" IsResource="false"></DeviceLockImageURI>
+          <HasLarge>false</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>

@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ca-ES</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>Càmera d'espia</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>afegir</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Element de menú</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>Pas 1: Si no ha pres cap pantalla pesos al seu telèfon, vostè haurà de prendre un pes per utilitzar com el botó de finestrons de càmera d'espia de pantalla.  Per prendre una captura de pantalla, premeu el botó de casa i el botó de poder a la vegada.  Vostè pot prendre una pantalla disparada des de qualsevol pantalla de qualsevol aplicació al telèfon.</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>Pas 2: Anar a la pantalla de configuració.  Triar la imatge que voleu utilitzar com a fons per al botó per fer fotografies.  També podeu configurar altres opcions de configuració de càmera d'aquesta pantalla.</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>Pas 3: Aneu a la pantalla principal.  Ara hauria de veure el seu screenshot.  Per fer una foto, simplement donar copets la pantalla. Això normalment es triga aproximadament 1,5 segons, depenent de la configuració d'orientació, així com què telèfon que té.</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>Pas 4: per veure el seu quadre, premeu i desplaceu a l'esquerra o a la pantalla principal.  També s'emmagatzemaran la imatge de la teva biblioteca de mitjans de comunicació.</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="BackCamera" xml:space="preserve">
+    <value>Cambra posterior</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>Comprar ara!</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Configuració</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Per estendre el seu judici de 3 dies a 10 dies, valorar aquest estrelles app 5 i deixar un comentari positiu.</value>
+  </data>
+  <data name="FlashOff" xml:space="preserve">
+    <value>Oreig</value>
+  </data>
+  <data name="FlashOn" xml:space="preserve">
+    <value>Flash en</value>
+  </data>
+  <data name="FocusOff" xml:space="preserve">
+    <value>Centrar-se fora</value>
+  </data>
+  <data name="FocusOn" xml:space="preserve">
+    <value>Centrar-se en</value>
+  </data>
+  <data name="FrontCamera" xml:space="preserve">
+    <value>Càmera del davant</value>
+  </data>
+  <data name="ImagePreview" xml:space="preserve">
+    <value>Imatge:</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instruccions</value>
+  </data>
+  <data name="MainScreen" xml:space="preserve">
+    <value>Pantalla principal</value>
+  </data>
+  <data name="NoScreenShotSelected" xml:space="preserve">
+    <value>No hi ha captura de pantalla seleccionat</value>
+  </data>
+  <data name="NotNow" xml:space="preserve">
+    <value>Ara no</value>
+  </data>
+  <data name="PictureCounterOff" xml:space="preserve">
+    <value>Comptador d'imatge fora</value>
+  </data>
+  <data name="PictureCounterOn" xml:space="preserve">
+    <value>Comptador de la imatge en</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="RateButton" xml:space="preserve">
+    <value>Taxa</value>
+  </data>
+  <data name="SoundOff" xml:space="preserve">
+    <value>So</value>
+  </data>
+  <data name="SoundOn" xml:space="preserve">
+    <value>So en</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Judici ha expirat.</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>prova</value>
+  </data>
+  <data name="TakingPictureText" xml:space="preserve">
+    <value>Imatge presa</value>
+  </data>
+</root>

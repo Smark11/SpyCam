@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="SpyCamera" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">ko-KR</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>Spy Camera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">스파이 카메라</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">추가</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">메뉴 항목</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step1" translate="yes" xml:space="preserve">
+          <source>Step 1:  If you haven't taken any screen shots on your phone, you will need to take a screen shot to use as the spy camera shutter button.  To take a screen shot, press the home button and the power button at the same time.  You can take a screen shot from any screen of any application on your phone.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">1 단계: 귀하의 휴대 전화에 어떤 스크린 샷을 촬영 하지 않은, 경우 스파이 카메라 셔터 버튼으로 사용 하는 스크린샷 걸릴 해야 합니다.  스크린 샷을 걸릴 동시에 홈 버튼과 전원 버튼을 누릅니다.  귀하의 휴대 전화에 응용 프로그램의 화면에서 스크린샷을 걸릴 수 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step2" translate="yes" xml:space="preserve">
+          <source>Step 2:  Go to the configuration screen.  Choose the screenshot that you wish to use as the background for the button to take pictures.  You can also configure other camera settings on this screen.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">2 단계: 구성 화면으로 이동 합니다.  사진을 찍을 수 있는 단추에 대 한 배경으로 사용 하고자 하는 화면을 선택 합니다.  또한이 화면에서 다른 카메라 설정을 구성할 수 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step3" translate="yes" xml:space="preserve">
+          <source>Step 3:  Go to the main screen.  You should now see your screenshot.  To take a picture, simply tap the screen. This typically takes about 1.5 seconds depending on focus settings, as well as which phone you own.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">3 단계: 주 화면으로 이동 합니다.  당신은 지금 당신의 screenshot을 보아야 한다.  사진의 찍을, 단순히 화면을 누릅니다. 이 일반적으로 본인이 전화 뿐만 아니라 초점 설정에 따라 약 1.5 초 걸립니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step4" translate="yes" xml:space="preserve">
+          <source>Step 4:To view your picture, tap and slide to the left or right on the main screen.  Your picture will also be stored in your media library.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">4 단계: 당신의 사진을 보려면, 탭 하 고 왼쪽 이나 오른쪽 메인 화면에 슬라이드.  그림도 미디어 라이브러리에 저장 됩니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">에 대 한</target>
+        </trans-unit>
+        <trans-unit id="Resx/BackCamera" translate="yes" xml:space="preserve">
+          <source>Back Camera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">후면 카메라</target>
+        </trans-unit>
+        <trans-unit id="Resx/BuyNow" translate="yes" xml:space="preserve">
+          <source>Buy Now!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">지금 주문 하세요!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Configuration" translate="yes" xml:space="preserve">
+          <source>Configuration</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">구성</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
+          <source>To Extend your trial from 3 days to 10 Days, Rate this app 5 stars, and leave a positive comment.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">3 일에서 10 일 평가판을 확장,이 애플 리 케이 션 5 별을 평가 하 고 긍정적인 코멘트를 남겨 주세요.</target>
+        </trans-unit>
+        <trans-unit id="Resx/FlashOff" translate="yes" xml:space="preserve">
+          <source>Flash Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">플래시 끄기</target>
+        </trans-unit>
+        <trans-unit id="Resx/FlashOn" translate="yes" xml:space="preserve">
+          <source>Flash On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">에 플래시</target>
+        </trans-unit>
+        <trans-unit id="Resx/FocusOff" translate="yes" xml:space="preserve">
+          <source>Focus Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">초점을 해제</target>
+        </trans-unit>
+        <trans-unit id="Resx/FocusOn" translate="yes" xml:space="preserve">
+          <source>Focus On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">에 초점을</target>
+        </trans-unit>
+        <trans-unit id="Resx/FrontCamera" translate="yes" xml:space="preserve">
+          <source>Front Camera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">전면 카메라</target>
+        </trans-unit>
+        <trans-unit id="Resx/ImagePreview" translate="yes" xml:space="preserve">
+          <source>Image Preview:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">이미지 미리 보기:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">지침</target>
+        </trans-unit>
+        <trans-unit id="Resx/MainScreen" translate="yes" xml:space="preserve">
+          <source>Main Screen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">메인 화면</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoScreenShotSelected" translate="yes" xml:space="preserve">
+          <source>No Screen Shot Selected</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">아니 스크린 샷을 선택</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotNow" translate="yes" xml:space="preserve">
+          <source>Not Now</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">지금은 아니에요</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCounterOff" translate="yes" xml:space="preserve">
+          <source>Picture Counter Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">떨어져 그림 카운터</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCounterOn" translate="yes" xml:space="preserve">
+          <source>Picture Counter On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">그림 카운터에</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">구매</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateButton" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">속도</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundOff" translate="yes" xml:space="preserve">
+          <source>Sound Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">소리 끄기</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundOn" translate="yes" xml:space="preserve">
+          <source>Sound On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">소리에</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Trial Has Expired.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">평가판이 만료 되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Test" translate="yes" xml:space="preserve">
+          <source>test</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">테스트</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakingPictureText" translate="yes" xml:space="preserve">
+          <source>Taking Picture</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">사진을 찍을</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

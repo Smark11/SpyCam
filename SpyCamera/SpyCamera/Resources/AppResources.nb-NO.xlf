@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="nb-NO" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="SpyCamera" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">nb-NO</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>Spy Camera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spion kameraet</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">legge til</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Menyelement</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step1" translate="yes" xml:space="preserve">
+          <source>Step 1:  If you haven't taken any screen shots on your phone, you will need to take a screen shot to use as the spy camera shutter button.  To take a screen shot, press the home button and the power button at the same time.  You can take a screen shot from any screen of any application on your phone.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trinn 1: Hvis du ikke har tatt noen skjermen skudd på telefonen, må ta et skjermbilde for å bruke som spion kameraet nedleggelse knapp.  Hvis du vil ta et skjermbilde, trykker du på Hjem-knappen og power-knappen på samme tid.  Du kan ta en skjermen skudd fra enhver skjerm på et program på telefonen.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step2" translate="yes" xml:space="preserve">
+          <source>Step 2:  Go to the configuration screen.  Choose the screenshot that you wish to use as the background for the button to take pictures.  You can also configure other camera settings on this screen.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trinn 2: Gå til konfigurasjonen skjermen.  Velg screenshot som du ønsker å bruke som bakgrunn for knappen for å ta bilder.  Du kan også konfigurere andre kamerainnstillinger på denne skjermen.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step3" translate="yes" xml:space="preserve">
+          <source>Step 3:  Go to the main screen.  You should now see your screenshot.  To take a picture, simply tap the screen. This typically takes about 1.5 seconds depending on focus settings, as well as which phone you own.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trinn 3: Gå til hovedskjermbildet.  Du skal nå se din skjermene.  For å ta et bilde, bare trykk på skjermen. Dette tar vanligvis ca 1,5 sekunder avhengig av fokus innstillinger, i tillegg til hvilken telefon du eier.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step4" translate="yes" xml:space="preserve">
+          <source>Step 4:To view your picture, tap and slide to the left or right on the main screen.  Your picture will also be stored in your media library.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trinn 4: for å vise bildet, trykker og skyver til venstre eller høyre på hovedskjermen.  Bildet lagres også i mediebiblioteket.</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Om</target>
+        </trans-unit>
+        <trans-unit id="Resx/BackCamera" translate="yes" xml:space="preserve">
+          <source>Back Camera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bak kamera</target>
+        </trans-unit>
+        <trans-unit id="Resx/BuyNow" translate="yes" xml:space="preserve">
+          <source>Buy Now!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kjøp nå!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Configuration" translate="yes" xml:space="preserve">
+          <source>Configuration</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Konfigurasjon</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
+          <source>To Extend your trial from 3 days to 10 Days, Rate this app 5 stars, and leave a positive comment.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Å forlenge din prøveversjon fra 3 dager til 10 dager, rangere denne app 5 stjerner, og la en positiv kommentar.</target>
+        </trans-unit>
+        <trans-unit id="Resx/FlashOff" translate="yes" xml:space="preserve">
+          <source>Flash Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Flash av</target>
+        </trans-unit>
+        <trans-unit id="Resx/FlashOn" translate="yes" xml:space="preserve">
+          <source>Flash On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Flash på</target>
+        </trans-unit>
+        <trans-unit id="Resx/FocusOff" translate="yes" xml:space="preserve">
+          <source>Focus Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fokusere av</target>
+        </trans-unit>
+        <trans-unit id="Resx/FocusOn" translate="yes" xml:space="preserve">
+          <source>Focus On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fokusere på</target>
+        </trans-unit>
+        <trans-unit id="Resx/FrontCamera" translate="yes" xml:space="preserve">
+          <source>Front Camera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Frontkameraet</target>
+        </trans-unit>
+        <trans-unit id="Resx/ImagePreview" translate="yes" xml:space="preserve">
+          <source>Image Preview:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Forhåndsvisning av bilde:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Instruksjoner</target>
+        </trans-unit>
+        <trans-unit id="Resx/MainScreen" translate="yes" xml:space="preserve">
+          <source>Main Screen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hovedskjermen</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoScreenShotSelected" translate="yes" xml:space="preserve">
+          <source>No Screen Shot Selected</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ingen skjerm-Shot valgt</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotNow" translate="yes" xml:space="preserve">
+          <source>Not Now</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ikke nå</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCounterOff" translate="yes" xml:space="preserve">
+          <source>Picture Counter Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bilde Counter av</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCounterOn" translate="yes" xml:space="preserve">
+          <source>Picture Counter On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bilde Counter på</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kjøp</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateButton" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rate</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundOff" translate="yes" xml:space="preserve">
+          <source>Sound Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lyd av</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundOn" translate="yes" xml:space="preserve">
+          <source>Sound On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lyd på</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Trial Has Expired.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prøve har opphøre.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Test" translate="yes" xml:space="preserve">
+          <source>test</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">test</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakingPictureText" translate="yes" xml:space="preserve">
+          <source>Taking Picture</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ta bilde</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

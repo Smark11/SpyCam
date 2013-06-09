@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="uk-UA" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="SpyCamera" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">uk-UA</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>Spy Camera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">"Шпигунські" камери</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Додати</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Елемент меню</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step1" translate="yes" xml:space="preserve">
+          <source>Step 1:  If you haven't taken any screen shots on your phone, you will need to take a screen shot to use as the spy camera shutter button.  To take a screen shot, press the home button and the power button at the same time.  You can take a screen shot from any screen of any application on your phone.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Крок 1: Якщо ви ще не прийняті будь-якого екрана постріли на ваш телефон, потрібно буде прийняти використовувати як кнопку спуску затвора камери шпигуна знімок екрану.  Для створення знімка екрана, натисніть кнопку додому і кнопку живлення в той же час.  Ви можете взяти скріншот з будь-якого екрана будь-який додаток на вашому телефоні.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step2" translate="yes" xml:space="preserve">
+          <source>Step 2:  Go to the configuration screen.  Choose the screenshot that you wish to use as the background for the button to take pictures.  You can also configure other camera settings on this screen.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Крок 2: Перейдіть до конфігурація екрану.  Вибрати знімок, який ви бажаєте використовувати як тло для кнопки, щоб сфотографувати.  Можна також настроїти інші параметри камери на цьому екрані.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step3" translate="yes" xml:space="preserve">
+          <source>Step 3:  Go to the main screen.  You should now see your screenshot.  To take a picture, simply tap the screen. This typically takes about 1.5 seconds depending on focus settings, as well as which phone you own.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Крок 3: Перейти до основного екрану.  Тепер ви повинні побачити ваш скріншот.  Щоб зробити знімок, просто доторкніться до екрана. Зазвичай це займає близько 1,5 секунди залежно від настройки фокусу, а також які телефону ви є власником.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step4" translate="yes" xml:space="preserve">
+          <source>Step 4:To view your picture, tap and slide to the left or right on the main screen.  Your picture will also be stored in your media library.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Крок 4: щоб переглянути зображення, торкніться та зсунути ліворуч або праворуч на головному екрані.  Зображення зберігаються в бібліотеці мультимедіа.</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Про</target>
+        </trans-unit>
+        <trans-unit id="Resx/BackCamera" translate="yes" xml:space="preserve">
+          <source>Back Camera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Назад камери</target>
+        </trans-unit>
+        <trans-unit id="Resx/BuyNow" translate="yes" xml:space="preserve">
+          <source>Buy Now!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Купити зараз!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Configuration" translate="yes" xml:space="preserve">
+          <source>Configuration</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Конфігурація</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
+          <source>To Extend your trial from 3 days to 10 Days, Rate this app 5 stars, and leave a positive comment.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Щоб розширити ваш суд за 3 дні до 10 днів, Оцініть цю app 5 зірочок і залишити коментар позитивний.</target>
+        </trans-unit>
+        <trans-unit id="Resx/FlashOff" translate="yes" xml:space="preserve">
+          <source>Flash Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Спалах вимкнено</target>
+        </trans-unit>
+        <trans-unit id="Resx/FlashOn" translate="yes" xml:space="preserve">
+          <source>Flash On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Флеш на</target>
+        </trans-unit>
+        <trans-unit id="Resx/FocusOff" translate="yes" xml:space="preserve">
+          <source>Focus Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Фокус Off</target>
+        </trans-unit>
+        <trans-unit id="Resx/FocusOn" translate="yes" xml:space="preserve">
+          <source>Focus On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Зосередитися на</target>
+        </trans-unit>
+        <trans-unit id="Resx/FrontCamera" translate="yes" xml:space="preserve">
+          <source>Front Camera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Фронтальною камерою</target>
+        </trans-unit>
+        <trans-unit id="Resx/ImagePreview" translate="yes" xml:space="preserve">
+          <source>Image Preview:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Перегляд зображення:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Інструкції</target>
+        </trans-unit>
+        <trans-unit id="Resx/MainScreen" translate="yes" xml:space="preserve">
+          <source>Main Screen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Головний екран</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoScreenShotSelected" translate="yes" xml:space="preserve">
+          <source>No Screen Shot Selected</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вибрано не знімок екрану</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotNow" translate="yes" xml:space="preserve">
+          <source>Not Now</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Не зараз</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCounterOff" translate="yes" xml:space="preserve">
+          <source>Picture Counter Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Малюнок лічильник Off</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCounterOn" translate="yes" xml:space="preserve">
+          <source>Picture Counter On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Малюнок лічильник на</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Придбання</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateButton" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Курс</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundOff" translate="yes" xml:space="preserve">
+          <source>Sound Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вимкнути звук</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundOn" translate="yes" xml:space="preserve">
+          <source>Sound On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Звук на</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Trial Has Expired.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Судовий розгляд, минув.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Test" translate="yes" xml:space="preserve">
+          <source>test</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">тест</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakingPictureText" translate="yes" xml:space="preserve">
+          <source>Taking Picture</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Створення знімка</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

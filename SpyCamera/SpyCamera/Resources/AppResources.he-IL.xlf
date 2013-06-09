@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="he-IL" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="SpyCamera" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.2.2017.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">RightToLeft</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">he-IL</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>Spy Camera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">מרגלים מצלמה</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">להוסיף</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">פריט התפריט</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step1" translate="yes" xml:space="preserve">
+          <source>Step 1:  If you haven't taken any screen shots on your phone, you will need to take a screen shot to use as the spy camera shutter button.  To take a screen shot, press the home button and the power button at the same time.  You can take a screen shot from any screen of any application on your phone.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">שלב 1: אם לא לקחת צילומי מסך כל בטלפון שלך, תצטרך לקחת מסך נורה להשתמש לחצן סגירה של המצלמה מרגל.  לקחת צילום מסך, הקש כפתור הבית ועל לחצן הפעלה בו זמנית.  אתה יכול לקחת מסך ירו מכל מסך של כל יישום בטלפון שלך.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step2" translate="yes" xml:space="preserve">
+          <source>Step 2:  Go to the configuration screen.  Choose the screenshot that you wish to use as the background for the button to take pictures.  You can also configure other camera settings on this screen.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">שלב 2: לעבור אל מסך ההגדרות.  לבחור את המסך שברצונך להשתמש כרקע עבור הלחצן כדי לצלם תמונות.  באפשרותך גם לקבוע הגדרות המצלמה אחרים על מסך זה.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step3" translate="yes" xml:space="preserve">
+          <source>Step 3:  Go to the main screen.  You should now see your screenshot.  To take a picture, simply tap the screen. This typically takes about 1.5 seconds depending on focus settings, as well as which phone you own.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">שלב 3: לעבור אל המסך הראשי.  כעת אתה אמור לראות את המסך שלך.  כדי לצלם תמונה, פשוט הקש על המסך. זה בדרך כלל לוקח כ- 1.5 שניות בהתאם הגדרות מיקוד, כמו גם אשר טלפון שבבעלותך.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Step4" translate="yes" xml:space="preserve">
+          <source>Step 4:To view your picture, tap and slide to the left or right on the main screen.  Your picture will also be stored in your media library.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">שלב 4: כדי להציג את התמונות שלך, הקש על והחלק שמאלה או ימינה על המסך הראשי.  התמונה שלך יאוחסנו גם ספריית המדיה שלך.</target>
+        </trans-unit>
+        <trans-unit id="Resx/About" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">אודות</target>
+        </trans-unit>
+        <trans-unit id="Resx/BackCamera" translate="yes" xml:space="preserve">
+          <source>Back Camera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">המצלמה האחורית</target>
+        </trans-unit>
+        <trans-unit id="Resx/BuyNow" translate="yes" xml:space="preserve">
+          <source>Buy Now!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">קנה עכשיו!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Configuration" translate="yes" xml:space="preserve">
+          <source>Configuration</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">תצורה</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
+          <source>To Extend your trial from 3 days to 10 Days, Rate this app 5 stars, and leave a positive comment.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">כדי להרחיב את הניסיון של 3 ימים עשרה ימים, קצב זה כוכבים app 5, השאירו תגובה חיובית.</target>
+        </trans-unit>
+        <trans-unit id="Resx/FlashOff" translate="yes" xml:space="preserve">
+          <source>Flash Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Flash Off</target>
+        </trans-unit>
+        <trans-unit id="Resx/FlashOn" translate="yes" xml:space="preserve">
+          <source>Flash On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">פלאש על</target>
+        </trans-unit>
+        <trans-unit id="Resx/FocusOff" translate="yes" xml:space="preserve">
+          <source>Focus Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">להתמקד כבוי</target>
+        </trans-unit>
+        <trans-unit id="Resx/FocusOn" translate="yes" xml:space="preserve">
+          <source>Focus On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">להתמקד</target>
+        </trans-unit>
+        <trans-unit id="Resx/FrontCamera" translate="yes" xml:space="preserve">
+          <source>Front Camera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">מצלמה קדמית</target>
+        </trans-unit>
+        <trans-unit id="Resx/ImagePreview" translate="yes" xml:space="preserve">
+          <source>Image Preview:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">תצוגה מקדימה של תמונה:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions" translate="yes" xml:space="preserve">
+          <source>Instructions</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">הוראות</target>
+        </trans-unit>
+        <trans-unit id="Resx/MainScreen" translate="yes" xml:space="preserve">
+          <source>Main Screen</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">המסך הראשי</target>
+        </trans-unit>
+        <trans-unit id="Resx/NoScreenShotSelected" translate="yes" xml:space="preserve">
+          <source>No Screen Shot Selected</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">צילום מסך לא נבחר</target>
+        </trans-unit>
+        <trans-unit id="Resx/NotNow" translate="yes" xml:space="preserve">
+          <source>Not Now</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">לא עכשיו</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCounterOff" translate="yes" xml:space="preserve">
+          <source>Picture Counter Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">התמונות מונה את</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCounterOn" translate="yes" xml:space="preserve">
+          <source>Picture Counter On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">התמונות מונה ב</target>
+        </trans-unit>
+        <trans-unit id="Resx/PurchaseButton" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">רכישה</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateButton" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">קצב</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundOff" translate="yes" xml:space="preserve">
+          <source>Sound Off</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">צליל</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundOn" translate="yes" xml:space="preserve">
+          <source>Sound On</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">נשמע על</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialExpired" translate="yes" xml:space="preserve">
+          <source>Trial Has Expired.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">משפט פג.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Test" translate="yes" xml:space="preserve">
+          <source>test</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">מבחן</target>
+        </trans-unit>
+        <trans-unit id="Resx/TakingPictureText" translate="yes" xml:space="preserve">
+          <source>Taking Picture</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">לוקחים תמונה</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

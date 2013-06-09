@@ -1,0 +1,243 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="SpyCamera.MainPage"
+    x:Name="MainPhoneAppPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:common="clr-namespace:Common.UiComponents;assembly=Common"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    
+    BackKeyPress="BackKeyPressed"
+    >
+
+    <phone:PhoneApplicationPage.Resources>
+        <DataTemplate x:Key="ResolutionTemplate">
+            <TextBlock FontSize="30" Text="{Binding Display}"/>
+        </DataTemplate>
+
+        <DataTemplate x:Key="ScreenShotTemplate">
+            <TextBlock FontSize="30" Text="{Binding FormattedName}"/>
+        </DataTemplate>
+    </phone:PhoneApplicationPage.Resources>
+
+    <Viewbox>
+        <!--LayoutRoot is the root grid where all page content is placed-->
+        <Grid x:Name="LayoutRoot" Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- LOCALIZATION NOTE:
+            To localize the displayed strings copy their values to appropriately named
+            keys in the app's neutral language resource file (AppResources.resx) then
+            replace the hard-coded text value between the attributes' quotation marks
+            with the binding clause whose path points to that string name.
+
+            For example:
+
+                Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}"
+
+
+            Adding supported languages in the Project Properties tab will create a
+            new resx file per language that can carry the translated values of your
+            UI strings. The binding in these examples will cause the value of the
+            attributes to be drawn from the .resx file that matches the
+            CurrentUICulture of the app at run time.
+         -->
+
+            <!--TitlePanel contains the name of the application and page title-->
+            <!--<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="MY APPLICATION" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+            <TextBlock Text="page name" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>-->
+
+            <!--ContentPanel - place additional content here-->
+
+            <Grid x:Name="ContentPanel" Grid.Row="1">
+                
+                <StackPanel Width="{Binding ScreenWidth}" Visibility="{Binding BuyOrRateVisibility}">
+                    <Button Click="BuyNowClicked" Content="{Binding Path=LocalizedResources.BuyNow, Source={StaticResource LocalizedStrings}}"></Button>
+                    <StackPanel Visibility="{Binding RateVisibility}">
+                        <TextBlock Text="{Binding Path=LocalizedResources.ExtendTrial, Source={StaticResource LocalizedStrings}}" TextWrapping="Wrap"/>
+                        <Button Click="RateNowClicked" Content="{Binding Path=LocalizedResources.RateButton, Source={StaticResource LocalizedStrings}}"></Button>
+                    </StackPanel>
+                    <Button Click="SkipBuyOrRateClicked" Content="{Binding Path=LocalizedResources.NotNow, Source={StaticResource LocalizedStrings}}"></Button>
+                </StackPanel>
+
+                <common:SupportScreen Visibility="{Binding AboutVisibility}"/>
+                <StackPanel Visibility="{Binding TrialExpiredVisibility}">
+                    <TextBlock Text="{Binding Path=LocalizedResources.TrialExpired, Source={StaticResource LocalizedStrings}}"/>
+                    <Button Click="PurchaseHandler" Content="{Binding Path=LocalizedResources.PurchaseButton, Source={StaticResource LocalizedStrings}}"/>
+                </StackPanel>
+
+                <!--<StackPanel Visibility="{Binding InstructionsVisibility}">
+                    <TextBlock FontSize="50" Foreground="Red" Text="SpyCam"/>
+                    <TextBlock Text=""/>
+                    <TextBlock FontSize="50" Text="Instructions"/>
+                    <TextBlock Text=""/>
+                    <TextBlock FontSize="25" Text="Step 1:  If you haven't taken any screen-shots"/>
+                    <TextBlock FontSize="25" Text="         on your phone, you will need to take "/>
+                    <TextBlock FontSize="25" Text="         a screen-shot to use as the spy-camshutter"/>
+                    <TextBlock FontSize="25" Text="         button.  To take a screen-shot, press the"/>
+                    <TextBlock FontSize="25" Text="         home button and the power button at the same"/>
+                    <TextBlock FontSize="25" Text="         time.You can take a screen-shot of any"/>
+                    <TextBlock FontSize="25" Text="         screen of any application on your phone."/>
+
+
+                    <TextBlock Text=""/>
+                    <TextBlock FontSize="25" Text="Step 2:  Go to the configuration screen. "/>
+                    <TextBlock FontSize="25" Text="         Choose the screenshot that you wish to "/>
+                    <TextBlock FontSize="25" Text="         use as the background for the button"/>
+                    <TextBlock FontSize="25" Text="         to take pictures.  You can also configure"/>
+                    <TextBlock FontSize="25" Text="         other camera settings on this screen."/>
+
+                    <TextBlock Text=""/>
+                    <TextBlock FontSize="25" Text="Step 3:  Go to the main screen. "/>
+                    <TextBlock FontSize="25" Text="         You should now see your screenshot."/>
+                    <TextBlock FontSize="25" Text="         To take a picture, simply tap the screen."/>
+                    <TextBlock FontSize="25" Text="         This typically takes 1.5 seconds depending"/>
+                    <TextBlock FontSize="25" Text="         on focus settings and camera hardware."/>
+
+                    <TextBlock Text=""/>
+                    <TextBlock FontSize="25" Text="Step 4:  To view your picture, tap and slide to"/>
+                    <TextBlock FontSize="25" Text="         the left or right on the main screen. "/>
+                    <TextBlock FontSize="25" Text="         Your picture will also be stored in "/>
+                    <TextBlock FontSize="25" Text="         your media library."/>
+                </StackPanel>-->
+
+                <ListBox Width="{Binding ScreenWidth}" Visibility="{Binding InstructionsVisibility}">
+                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.Step1, Source={StaticResource LocalizedStrings}}"/>
+                    <TextBlock Text=" "/>
+                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.Step2, Source={StaticResource LocalizedStrings}}"/>
+                    <TextBlock Text=" "/>
+                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.Step3, Source={StaticResource LocalizedStrings}}"/>
+                    <TextBlock Text=" "/>
+                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=LocalizedResources.Step4, Source={StaticResource LocalizedStrings}}"/>
+                </ListBox>
+
+                <StackPanel Visibility="{Binding ConfigScreenVisibility}">
+                    <toolkit:ListPicker x:Name="listPicker" 
+                                        SelectionMode="Single" 
+                                        ItemTemplate="{StaticResource ResolutionTemplate}"
+                                        FullModeItemTemplate="{StaticResource ResolutionTemplate}"
+                                        ItemsSource="{Binding AvailableResolutions}"
+                                        SelectedItem="{Binding SelectedResolution, Mode=TwoWay}"
+                                        Header="Select Picture Resolution:" 
+                                        FullModeHeader="Resolution" 
+                                        CacheMode="BitmapCache"/>
+
+                    <toolkit:ListPicker x:Name="BackgroundPicker" 
+                                        SelectionMode="Single" 
+                                        ItemTemplate="{StaticResource ScreenShotTemplate}"
+                                        FullModeItemTemplate="{StaticResource ScreenShotTemplate}"
+                                        ItemsSource="{Binding ScreenShots}"
+                                        SelectedItem="{Binding SelectedScreenShot, Mode=TwoWay}"
+                                        Header="Select Main Screen Image:" 
+                                        FullModeHeader="Resolution" 
+                                        CacheMode="BitmapCache"/>
+
+                    <StackPanel>
+                        <TextBlock Text="{Binding Path=LocalizedResources.ImagePreview, Source={StaticResource LocalizedStrings}}"/>
+                        <Image x:Name="PreviewImage" 
+                           MaxHeight="200" 
+                           MaxWidth="200" 
+                           Source="{Binding SelectedScreenShot.ImageToDisplay.Source, Mode=TwoWay}" />
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton x:Name="FlashOnRb" Click="FlashClick" GroupName="Flash" IsChecked="{Binding Path=FlashOn}" Content="{Binding Path=LocalizedResources.FlashOn, Source={StaticResource LocalizedStrings}}"></RadioButton>
+                        <RadioButton x:Name="FlashOffRb" Click="FlashClick" GroupName="Flash" IsChecked="{Binding Path=FlashOff}" Content="{Binding Path=LocalizedResources.FlashOff, Source={StaticResource LocalizedStrings}}"></RadioButton>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton  GroupName="Sound" IsChecked="{Binding Path=SoundOn, Mode=TwoWay}" Content="{Binding Path=LocalizedResources.SoundOn, Source={StaticResource LocalizedStrings}}"></RadioButton>
+                        <RadioButton  GroupName="Sound" IsChecked="{Binding Path=SoundOff, Mode=TwoWay}" Content="{Binding Path=LocalizedResources.SoundOff, Source={StaticResource LocalizedStrings}}"></RadioButton>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton  GroupName="Focus" IsChecked="{Binding Path=FocusOn, Mode=TwoWay}" Content="{Binding Path=LocalizedResources.FocusOn, Source={StaticResource LocalizedStrings}}"></RadioButton>
+                        <RadioButton  GroupName="Focus" IsChecked="{Binding Path=FocusOff, Mode=TwoWay}" Content="{Binding Path=LocalizedResources.FocusOff, Source={StaticResource LocalizedStrings}}"></RadioButton>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Visibility="{Binding CameraLocationVisibility}">
+                        <RadioButton  GroupName="CameraLocation" IsChecked="{Binding Path=FrontCamera, Mode=TwoWay}" Content="{Binding Path=LocalizedResources.FrontCamera, Source={StaticResource LocalizedStrings}}"></RadioButton>
+                        <RadioButton  GroupName="CameraLocation" IsChecked="{Binding Path=BackCamera, Mode=TwoWay}" Content="{Binding Path=LocalizedResources.BackCamera, Source={StaticResource LocalizedStrings}}"></RadioButton>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <RadioButton  GroupName="PicCountVis" IsChecked="{Binding Path=PictureCountVisibilityOn, Mode=TwoWay}" Content="{Binding Path=LocalizedResources.PictureCounterOn, Source={StaticResource LocalizedStrings}}"></RadioButton>
+                        <RadioButton  GroupName="PicCountVis" IsChecked="{Binding Path=PictureCountVisibilityOff, Mode=TwoWay}" Content="{Binding Path=LocalizedResources.PictureCounterOff, Source={StaticResource LocalizedStrings}}"></RadioButton>
+                    </StackPanel>
+
+                </StackPanel>
+
+                <phone:Pivot Visibility="{Binding MainScreenVisibility}"  x:Name="MainPivot">
+                    <phone:Pivot.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock Height="0"/>
+                        </DataTemplate>
+                    </phone:Pivot.HeaderTemplate>
+                    <phone:PivotItem>
+                        <StackPanel >
+                            <Button Click="TakePictureHandler">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="Button">
+                                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                                    </ControlTemplate>
+                                </Button.Template>
+                                <Button.Content>
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height=".8*"/>
+                                            <RowDefinition Height=".2*"/>
+                                        </Grid.RowDefinitions>
+                                        <Image Grid.Row="0" Grid.RowSpan="2" 
+                                               x:Name="MainImage" Source="{Binding SelectedScreenShot.ImageToDisplay.Source, Mode=TwoWay}"  />
+                                        <StackPanel>
+                                            <TextBlock Visibility="{Binding NoScreenShotVisibility}" Text="{Binding Path=LocalizedResources.NoScreenShotSelected, Source={StaticResource LocalizedStrings}}" Foreground="Red" FontSize="60"/>
+                                            <TextBlock Visibility="{Binding PictureCountVisibility}" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Text="{Binding TakingPictureText}" Foreground="Red" FontSize="60"/>
+                                            <TextBlock Visibility="{Binding PictureCountVisibility}" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Text="{Binding PictureCount}" Foreground="Red" FontSize="60"/>
+                                        </StackPanel>
+                                    </Grid>
+                                </Button.Content>
+                            </Button>
+                        </StackPanel>
+                    </phone:PivotItem>
+                    <phone:PivotItem x:Name="PicPivot">
+
+                        <!--<Viewbox  Stretch="UniformToFill">-->
+
+                        <Grid MaxWidth="{Binding Path=ActualWidth, ElementName=PicPivot}" MaxHeight="{Binding Path=ActualHeight, ElementName=PicPivot}">
+                            <Viewbox Stretch="Uniform">
+                                <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="{Binding LastPictureTaken}">
+                                <Image.RenderTransform>
+                                    <RotateTransform CenterX="{Binding CenterX}" 
+                                        CenterY="{Binding CenterY}" 
+                                        Angle="{Binding RotateAngle}" />
+                                </Image.RenderTransform>
+                                </Image>
+                            </Viewbox>
+                        </Grid>
+                        
+                        <!--</Viewbox>-->
+
+                    </phone:PivotItem>
+                </phone:Pivot>
+            </Grid>
+
+        </Grid>
+
+    </Viewbox>
+
+</phone:PhoneApplicationPage>
+    
+    

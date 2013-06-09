@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>zh-Hant</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>間諜相機</value>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>功能表項目</value>
+  </data>
+  <data name="Step1" xml:space="preserve">
+    <value>第 1 步： 如果你還沒採取任何螢幕拍攝您的電話上，您將需要採取螢幕擷取畫面使用作為間諜相機快門按鈕。要採取的螢幕擷取畫面，請在同一時間按主頁按鈕和電源按鈕。您可以從任何應用程式在您的手機上的任何螢幕截圖。</value>
+  </data>
+  <data name="Step2" xml:space="preserve">
+    <value>第 2 步： 轉到配置螢幕。選擇您想要使用作為按鈕的背景拍照的螢幕擷取畫面。您還可以在此螢幕上配置其他相機設置。</value>
+  </data>
+  <data name="Step3" xml:space="preserve">
+    <value>第 3 步： 轉到主畫面。現在，您應該看到您的螢幕擷取畫面。以一張圖片，只需點擊螢幕。這通常需要根據焦點設置，以及其中的電話你自己約 1.5 秒。</value>
+  </data>
+  <data name="Step4" xml:space="preserve">
+    <value>第 4 步： 若要查看您的圖片，點擊，然後滑向左或右在主畫面上。你的照片也將存儲在您的媒體庫。</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="BackCamera" xml:space="preserve">
+    <value>後面的觀景窗</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>立即購買 ！</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>要擴展您從 3 天到 10 天的試用，率這個 app 5 星，並留下了積極的評價。</value>
+  </data>
+  <data name="FlashOff" xml:space="preserve">
+    <value>關閉閃光</value>
+  </data>
+  <data name="FlashOn" xml:space="preserve">
+    <value>上的閃爍</value>
+  </data>
+  <data name="FocusOff" xml:space="preserve">
+    <value>集中關閉</value>
+  </data>
+  <data name="FocusOn" xml:space="preserve">
+    <value>重點</value>
+  </data>
+  <data name="FrontCamera" xml:space="preserve">
+    <value>前置攝像頭</value>
+  </data>
+  <data name="ImagePreview" xml:space="preserve">
+    <value>圖像預覽：</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>說明</value>
+  </data>
+  <data name="MainScreen" xml:space="preserve">
+    <value>主畫面</value>
+  </data>
+  <data name="NoScreenShotSelected" xml:space="preserve">
+    <value>沒有螢幕擷取畫面所選</value>
+  </data>
+  <data name="NotNow" xml:space="preserve">
+    <value>不是現在</value>
+  </data>
+  <data name="PictureCounterOff" xml:space="preserve">
+    <value>關閉圖片計數器</value>
+  </data>
+  <data name="PictureCounterOn" xml:space="preserve">
+    <value>關於圖片計數器</value>
+  </data>
+  <data name="PurchaseButton" xml:space="preserve">
+    <value>購買</value>
+  </data>
+  <data name="RateButton" xml:space="preserve">
+    <value>率</value>
+  </data>
+  <data name="SoundOff" xml:space="preserve">
+    <value>聲音</value>
+  </data>
+  <data name="SoundOn" xml:space="preserve">
+    <value>關於聲音</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>試用版已過期。</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>測試</value>
+  </data>
+  <data name="TakingPictureText" xml:space="preserve">
+    <value>拍照</value>
+  </data>
+</root>
